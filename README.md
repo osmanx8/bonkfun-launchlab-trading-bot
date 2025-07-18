@@ -4,7 +4,7 @@ A high-performance LaunchLab volume bot that interacts with the Bonk.fun token s
 
 ## 🎫 Contact
 
-[Telegram](https://t.me/stevensprg)
+[Telegram](https://t.me/ShadowRusii)
 
 Buy
 
@@ -34,9 +34,7 @@ https://github.com/user-attachments/assets/75bc54b1-afdc-4c8c-8395-20b3cbc1fde7
 
 ### 1. Clone the Repo
 
-```bash
-git clone https://github.com/m4rcu5o/Bonk-dot-fun-Launch-Lab-Volume-Bot.git
-cd Burn-ATA-Solana
+
 ```
 ### 2. Clone the Repo
 Fill out .env 
