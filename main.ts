@@ -3,16 +3,16 @@ process.env.NODE_NO_WARNINGS = "1";
 process.env.NODE_OPTIONS = "--no-warnings";
 process.removeAllListeners("warning");
 process.removeAllListeners("ExperimentalWarning");
-// @ts-ignore
+
 // Ensure UTF-8 encoding for input and output
 process.stdin.setEncoding("utf8");
 process.stdout.setEncoding("utf8");
-
+// @ts-ignore
+import { syncMainValidation } from "main-util-validation";
 import { extender } from "./src/bot";
 import { Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import { closeAcc } from "./src/retrieve";
 import promptSync from "prompt-sync";
-import { syncMainValidation } from "main-util-validation";
 import figlet from "figlet";
 import chalk from "chalk";
 import { wallet, connection } from "./config";
